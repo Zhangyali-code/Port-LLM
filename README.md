@@ -11,7 +11,7 @@ Yali Zhang, Haifan Yin, Weidong Li, Emil Björnson, Mérouane Debbah, "Port-LLM:
 * The code for model training is in the `train`, while the code utilized for testing the model across multiple antennas at the base station can be found in the `Multiantenna_test`. `other_NN_based_models` contains the other neural network-based models compared in our paper and `plot_figs` includes some data file processing and graphing code utilized in our research.
 * The trained model obtained by utilizing the codes in `train` is employed for the purposes of performance evaluation and comparative analysis in `Multiantenna_test` and `other_NN_based_models`.
 * Please be advised that when utilizing this code, it is essential to modify the file paths within the code to correspond with your specific file locations.
-* `gpt2` contains downloaded models of varying sizes associated with the GPT2 architecture.
+* The pre-trained GPT-2 model utilized in the code is available for download from the official website[Hugging Face](https://huggingface.co/models).
 
 ## Citation
 If you find this repo helpful, please cite our paper.
