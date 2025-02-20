@@ -8,7 +8,7 @@ Yali Zhang, Haifan Yin, Weidong Li, Emil Björnson, Mérouane Debbah, "Port-LLM:
 * Anaconda (conda 24.5.0)
 
 ## Dataset
-
+The dataset used in this code is derived from the CDL-D channel model. Comprehensive information regarding the parameter configurations for dataset generation is available in our paper.
 
 ## Get started
 * The code for model training is in the `train`, while the code utilized for testing the model across multiple antennas at the base station can be found in the `Multiantenna_test`. `other_NN_based_models` contains the other neural network-based models compared in our paper and `plot_figs` includes some data file processing and graphing code utilized in our research.
