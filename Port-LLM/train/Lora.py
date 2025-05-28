@@ -43,8 +43,11 @@ class LoRA_gpt2(nn.Module):
     def __init__(self, model, r: int, gpt_dim=768):
         super(LoRA_gpt2, self).__init__()
 
-        self.w_As = []  # These are linear layers
-        self.w_Bs = []
+        #self.w_As = []  # These are linear layers
+        #self.w_Bs = []
+        self.w_As = nn.ParameterList()  # 自动注册参数
+        self.w_Bs = nn.ParameterList()
+        
 
         # freeze image encoder first
         for i, (name, param) in enumerate(model.named_parameters()):
