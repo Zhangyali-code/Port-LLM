@@ -16,6 +16,10 @@ The dataset used in this code is derived from the CDL-D channel model. Comprehen
 * Please be advised that when utilizing this code, it is essential to modify the file paths within the code to correspond with your specific file locations.
 * The pre-trained GPT-2 model utilized in the code is available for download from the official website [[Hugging Face](https://huggingface.co/models)].
 
+## Attention!
+* To reduce the number of our model parameters, we have further refined the Port-LLM model described in the original paper. The code for the improved Port-LLM model, based on LoRA fine-tuning, is presented in `Updata_code\model_lore.py`.
+* To more fully leverage the powerful natural language processing capabilities of large language models and further compare the effectiveness of prompt fine-tuning versus LoRA fine-tuning in the models studied here, we propose a prompt-based fine-tuning model named Prompt-Port-LLM in the updated version of our paper. The specific implementation code for this model can be found at: `Updata_code\model_prompt.py`.
+
 ## Citation
 If you find this repo helpful, please cite our paper.
 ```
